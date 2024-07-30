@@ -1,5 +1,4 @@
 # Power-BI-Project-
-Summary
 In this Power BI project, I created a dashboard using real survey data from data professionals, focusing on data transformation and visualization.
 
 Highlights
