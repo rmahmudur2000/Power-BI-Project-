@@ -2,53 +2,56 @@
 
 **Situation:** 
 
-The Olympic Games have a rich history spanning over a century, with vast amounts of data on athlete participation, medal distributions, and global representation. This data held potential for deep insights but was complex and unstructured, making it challenging to analyze and visualize effectively.
+I had access to a comprehensive dataset of Olympic athletes from 1896 to the present, containing valuable information about participation, medal wins, and country performances. This rich historical data held potential for deep insights but required advanced analysis and visualization techniques to unlock its full value.
 
 **Task:** 
 
-My goal was to conduct a comprehensive analysis of Olympic data using Power BI. I aimed to uncover trends in global participation, analyze medal distributions, and visualize the evolution of the Olympics over time. Additionally, I wanted to create a system for quantifying and comparing countries' Olympic performances.
+My goal was to create a detailed, interactive analysis of Olympic history using Power BI. I aimed to visualize participation trends, analyze medal distributions, create performance metrics, and showcase the global evolution of the Olympics over time.
 
 **Action:**
-1.	**Data Collection and Cleaning**: 
 
-    Imported extensive Olympic datasets into Power BI
+Data Preparation:
 
-    Used Power Query to clean and structure the data, ensuring accuracy for analysis
-  	
-2. **Visualization Development:**
+Imported the 'athleteevents.csv' dataset into Power BI
+Used Power Query Editor for data cleaning and transformation
+Addressed issues like non-unique team names and aggregated data under single country names
 
-    Created various charts and graphs to display participation trends
 
-    Developed an animated map to show the historical progression of Olympic participation
-   
-    Designed matrix charts for medal count analysis
+Visualization Development:
 
-3. **Analysis Techniques:**
+Created matrix visualizations for competitor and participation analysis
+Developed line charts to show growth in competitors and participating countries over time
+Utilized Power BI's mapping features to create geographical visualizations
+Implemented an ArcGIS map for an animated visualization of Olympic history
 
-    Implemented a point system to quantify countries' Olympic successes
 
-    Linked multiple datasets to explore correlations between demographics, national investments, 
-    and Olympic performance
+Performance Metric Creation:
 
-    Conducted breakdowns of athlete performance by sport, gender, and age
+Calculated medals per country and points earned
+Created new columns for medal values and a points system
+Developed a 'metal ratio' to normalize medal counts by population size
 
-4. **Insight Generation:**
 
-    Analyzed the shift from Eurocentric to global participation
+Advanced Analysis:
 
-    Examined factors contributing to national Olympic success
-
-    Investigated trends in athlete demographics and performance over time
+Calculated rolling averages for medal count growth
+Used DAX to create cumulative medal count columns
+Implemented filtering techniques for country-specific and top performer analyses
 
 **Result:** 
 
-The project yielded several significant outcomes:
+My Power BI project yielded several significant outcomes:
 
-1.	Comprehensive Visualization: Successfully created a dynamic, interactive Power BI dashboard that effectively visualized the evolution of the Olympics from 1896 to present.
-2.	Trend Identification: Uncovered key trends, such as the globalization of the Olympics and shifts in dominant countries over time.
-3.	Performance Metrics: Developed a robust system for quantifying and comparing national Olympic performances, providing new insights into country rankings beyond simple medal counts.
-4.	Demographic Insights: Revealed patterns in athlete age, gender, and nationality across different sports and over time.
-5.	Data-Driven Storytelling: Transformed complex Olympic data into an engaging, visual narrative that makes the rich history and trends of the Games accessible and understandable.
-6.	Skill Enhancement: Significantly improved my proficiency in Power BI, data cleaning, advanced data analysis, and data visualization techniques.
+Comprehensive Visualization: Successfully created an interactive, animated overview of Olympic history from 1896 to present, making complex data easily understandable.
 
-This project not only deepened my understanding of Olympic history and trends but also demonstrated the power of data analysis in bringing complex sporting events to life through visualization.
+Trend Identification: Uncovered key trends in Olympic participation, including the global spread of the Games and notable events like the 1980 boycotts.
+
+Performance Metrics: Developed a robust system for quantifying and comparing national Olympic performances, providing deeper insights than simple medal counts.
+
+Data Cleaning Expertise: Significantly improved the dataset's quality and usability through advanced data transformation techniques.
+
+Advanced Analysis Capabilities: Demonstrated proficiency in using DAX and other advanced Power BI features for in-depth time-series and comparative analyses.
+
+Foundation for Further Research: Established a solid base for future analyses, including demographic insights, gender comparisons, and event-specific studies.
+
+This project not only enhanced my Power BI skills but also produced a valuable tool for understanding and visualizing Olympic history, setting the stage for even more detailed analyses in the future.
